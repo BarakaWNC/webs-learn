@@ -1,54 +1,49 @@
 *{
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  margin: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 header {
-  background-color: silver;
-  text-align: center;
-  padding: 15px;
+	background-color: black;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+	pointer-events: none;
 }
-h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-style: bolder;
-  font-size: 14px;
+.navbar ul{
+	background-color: silver;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 }
-p {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Monospace;
+.navbar ul a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-transform: uppercase,capitalize;
 }
-#navbar {
-  background-color: black;
-  height: 20px;
+.navbar a:hover {
+	background-color: chocolate;
+	cursor: pointer;
+}
+.navbar ul li {
+	float: left;
+	list-style-type: none;
 }
 aside {
-  width: 20%;
-  float: left;
-  padding: 10px;
+	background-color: aquamarine;
+	padding: 22px;
+	text-align: left;
+	float: left;
 }
-section {
-  width: 40%;
-  float: left;
-  padding: 10px;
-}
-article {
-  width: 40%;
-  float: left;
-  padding: 10px;
-}
-footer {
-  background-color: silver;
-  text-align: center;
-  font-family: Monospace;
-  display: block;
-  clear: both;
-  padding: 15px;
-}
-@media screen and (max width:600px){
-  aside, section, article,{
-    width: 100%;
-  }
+.box {
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 100px;
+	text-align: center;
 }
