@@ -47,3 +47,23 @@ aside {
 	height: 100px;
 	text-align: center;
 }
+.product a {
+	background-color: white;
+	color: white;
+	padding: 12px;
+	margin: 12px;
+	text-align: center;
+	float: center;
+}
+.parent-element {
+	background-color: black;
+	color: white;
+	margin: 12px;
+	text-align: center;
+	position: relative;
+	float: center;
+	display: block;
+	border-radius: 24px;
+	border-color: whitesmoke;
+	border-style:dashed;
+}
